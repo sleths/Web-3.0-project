@@ -1,6 +1,6 @@
 import { Layout } from "antd";
 
-import Main from "./components/Hero";
+import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 
 const App = () => {
