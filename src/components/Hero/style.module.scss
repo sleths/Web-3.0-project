@@ -1,0 +1,36 @@
+.img {
+  width: 100%;
+}
+
+.button {
+  background-color: #3671E9;
+  height: auto;
+  padding: 0.75em 2em;
+  outline: none;
+  border: none;
+  border-radius: 32px;
+  margin-top: 2em;
+}
+
+.container{
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 2em;
+  text-align: center;
+  min-height: 80vh;
+  & h1 {
+    color:whitesmoke;
+    font: 800;
+  }
+}
+
+@media(min-width: 1440px) {
+  .container{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: left;
+  }
+  .container div {
+    width: 100%;
+  }
+}

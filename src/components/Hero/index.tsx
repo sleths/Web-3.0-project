@@ -1,4 +1,5 @@
 import {
+	Button,
 	Col,
 	Layout,
 	Row,
@@ -9,19 +10,21 @@ import React, { FC } from "react";
 import heroImg from "../../assets/hero-image.svg";
 import style from "./style.module.scss";
 
-const Main:FC = () => {
+const Hero:FC = () => {
   const { Content } = Layout;
-  const { Title } = Typography;
+  const { Title, Text } = Typography;
   return <Content>
     <Row className={`${style.container} container centered`}>
-      <Col span={24}>
+      <Col>
         <Title level={1}>Fastest & secure platform to invest in crypto</Title>
+        <Text>Buy and sell cryptocurrencies, trusted by 10M wallets with over $30 billion in transactions.</Text>
+        <Button className={style.button}> <a href="/">Try for FREE</a></Button>
       </Col>
-      <Col span={24}>
+      <Col>
         <img src={heroImg} alt="Blockchain app" className={style.img}/>
       </Col>
     </Row>
   </Content>;
 };
 
-export default Main;
+export default Hero;
