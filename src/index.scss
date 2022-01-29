@@ -13,9 +13,7 @@ body {
 }
 
 .ant-layout {
-background: #232526;  
-background: -webkit-linear-gradient(to right, #414345, #232526);  
-background: linear-gradient(to right, #414345, #232526); 
+background: #0D0D2B;
 min-height: 100vh;
 }
 
@@ -32,7 +30,7 @@ min-height: 100vh;
 }
 
 .ant-menu-item-active, .ant-menu-item-selected{
-  color:#D87D4A !important;
+  color: #3671E9 !important;
   &::after{
     border-bottom: 2px solid whitesmoke !important;
   }

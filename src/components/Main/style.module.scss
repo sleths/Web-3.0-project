@@ -1,0 +1,11 @@
+.img {
+  width: 100%;
+}
+
+.container{
+  flex-direction: column;
+  & h1 {
+    color:whitesmoke;
+    font: 800;
+  }
+}
