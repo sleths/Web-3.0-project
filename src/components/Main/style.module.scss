@@ -4,8 +4,11 @@
 
 .container{
   flex-direction: column;
+  gap: 2em;
+  margin-top: 2em;
   & h1 {
     color:whitesmoke;
     font: 800;
+    text-align: center;
   }
 }
