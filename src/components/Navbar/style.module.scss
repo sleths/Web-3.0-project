@@ -2,10 +2,12 @@
   justify-content: flex-end;
   background-color: transparent;
   text-transform: uppercase;
-  color: whitesmoke;
   letter-spacing: 1px;
   border-bottom: none;
   font-weight: 600;
+  & a {
+    color: whitesmoke !important;
+  }
 }
 
 .logo {

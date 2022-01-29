@@ -18,7 +18,7 @@ a {
   font-weight: 600;
 }
 
-.ant-typography{
+.ant-typography {
   color: whitesmoke;
 }
 
@@ -40,7 +40,10 @@ min-height: 100vh;
 }
 
 .ant-menu-item-active, .ant-menu-item-selected{
-  color: #3671E9 !important;
+  & a {
+    color: #3671E9 !important;
+  }
+ 
   &::after{
     border-bottom: 2px solid whitesmoke !important;
   }
